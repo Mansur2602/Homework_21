@@ -1,0 +1,113 @@
+ @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.select {
+    position: relative;
+    display: flex;
+    width: 749px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+select {
+    appearance: none; 
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    width: 166px;
+    height: 38px;
+    background: #49878d; 
+    padding-right: 40px; 
+    border: none; 
+    margin-top: 70px;
+    /* margin-left: 196px; */
+}
+
+#genreSelect{
+    /* font-family:  'Open Sans Hebrew', serif; */
+    font-family: "Open Sans", sans-serif;
+font-weight: 700;
+font-size: 34px;
+line-height: 121%;
+letter-spacing: 0em;
+color: #fff;
+padding-left: 5px;
+
+}
+
+.arrow{
+    position: relative;
+   right: 110px;
+   top: 80px;
+   width: 27px;
+   height: 21px;
+}
+
+#search{
+    border-radius: 10px;
+    width: 449px;
+    height: 38px;
+    background: #49878d;
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Open Sans", sans-serif;
+font-weight: 700;
+font-size: 34px;
+line-height: 121%;
+letter-spacing: 0em;
+color: #fff;
+
+}
+
+input{
+    border-radius: 10px;
+    width: 449px;
+    height: 38px;
+    background: #49878d;
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 121%;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+
+
+.films{
+    width: 1056px;
+    
+    height: auto;
+    margin: auto;
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    pad: 96px;
+grid-template-columns: (4, 1fr);
+}
+
+img{
+    width: 192px;
+    height: 288px;
+    margin-left: 50px;
+
+}
+
+
+
+
+.film-container{
+flex: 1 1 calc(25% - 10px);
+box-sizing: border-box;
+margin-bottom: 20px;
+text-align: center;
+}
